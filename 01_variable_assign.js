@@ -1,0 +1,13 @@
+console.log(myFullName);
+var myFullName = "Madhulika Milind Ayare";
+console.log(myFullName);
+var myLove = "I love only JS";
+console.log(myLove);
+var firstName = "Madhulika";
+var lastName = "Ayare";
+var age = "22";
+var address = "Pune";
+var pincode = "411038";
+var gender = "Female";
+var isMarried = "no";
+console.log(  firstName,  lastName, age,  address, pincode,  gender, isMarried);
