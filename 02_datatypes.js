@@ -23,3 +23,12 @@ console.log("typeof variabke graduation:", typeof graduation);
 console.log("typeof variabke city:", typeof city);
 age = true;
 console.log(typeof age);
+
+var alphabet = "A";
+
+console.log("Swapping Variables");
+num1 = 100;
+num2 = 200;
+ var temp = num1;
+ num1 = num2;
+ num2 = temp;
