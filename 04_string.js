@@ -16,3 +16,5 @@ console.log("last character is:", charAtLastIndex);
 console.log("find the index by character value ");
 var IndexOfM = greet.indexOf("M");
 console.log("Index of character M is :", IndexOfM);
+
+console.log("index of char which is not available in string" ,greet.indexOf("Z") );
