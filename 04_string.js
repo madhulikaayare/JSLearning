@@ -21,3 +21,7 @@ console.log("index of char which is not available in string" ,greet.indexOf("Z")
 console.log("Index of O char:",greet.indexOf("O"));
 
 console.log("Index of o char:",greet.lastIndexOf("o"));
+
+var replaceResult  = greet.replace("Morning","Evening");
+console.log(replaceResult);
+console.log(greet);
