@@ -66,4 +66,6 @@ console.log(splitResult);
 console.log("Total words: ", splitResult.length);
 
 var myFriendList = "Billgates, Stew Job, Elon Musk, Ratan Tata, Sundar Pichai, Satya Nadella, Narayan Murti, Nandan Nilekani, Larry Page, Surgey Brain, Tim Cook";
+var myFriendList = myFriendList.split(" ");
+console.log(myFriendList);
 console.log(myFriendList.length);
