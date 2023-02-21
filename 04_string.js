@@ -25,3 +25,6 @@ console.log("Index of o char:",greet.lastIndexOf("o"));
 var replaceResult  = greet.replace("Morning","Evening");
 console.log(replaceResult);
 console.log(greet);
+
+console.log("uppercase", replaceResult.toUpperCase());
+console.log("lowercase", replaceResult.toUpperCase());
