@@ -39,3 +39,8 @@ console.log("Removing extra start and end spaces using trim(): ",myNameAfterTrim
 console.log("finding extra spaces removed:");
 var count = myName.length - myNameAfterTrim.length ;
 console.log(count);
+
+console.log(myName.trimStart(), myName.trimEnd());
+console.log("includes()");
+console.log("is substrin includes or not:", greet.includes("Mor"));
+console.log("is substrin includes or not:", greet.includes("Afternoon"));
