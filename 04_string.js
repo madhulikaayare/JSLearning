@@ -28,3 +28,8 @@ console.log(greet);
 
 console.log("uppercase", replaceResult.toUpperCase());
 console.log("lowercase", replaceResult.toUpperCase());
+
+
+var myName = "   Mohit   Sharma  ";
+var myNameAfterTrim = myName.trim();
+console.log("Removing extra start and end spaces using trim(): ",myNameAfterTrim, myName.length, myNameAfterTrim.length);
