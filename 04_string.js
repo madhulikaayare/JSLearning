@@ -44,3 +44,9 @@ console.log(myName.trimStart(), myName.trimEnd());
 console.log("includes()");
 console.log("is substrin includes or not:", greet.includes("Mor"));
 console.log("is substrin includes or not:", greet.includes("Afternoon"));
+console.log("Is substring o includes in the greet or not: ", greet.includes("o"));
+
+console.log("slice() method");
+var sliceResult = greet.slice(5 , 11);
+console.log(sliceResult);
+console.log(greet.slice(2, 5));
