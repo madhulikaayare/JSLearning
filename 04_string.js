@@ -33,3 +33,9 @@ console.log("lowercase", replaceResult.toUpperCase());
 var myName = "   Mohit   Sharma  ";
 var myNameAfterTrim = myName.trim();
 console.log("Removing extra start and end spaces using trim(): ",myNameAfterTrim, myName.length, myNameAfterTrim.length);
+
+
+//find the total extra spaces removed from string - myName
+console.log("finding extra spaces removed:");
+var count = myName.length - myNameAfterTrim.length ;
+console.log(count);
