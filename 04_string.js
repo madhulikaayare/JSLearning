@@ -50,3 +50,20 @@ console.log("slice() method");
 var sliceResult = greet.slice(5 , 11);
 console.log(sliceResult);
 console.log(greet.slice(2, 5));
+
+
+
+console.log("split() method");
+var greet = "Good Morning";
+var splitResult = greet.split(" ");
+console.log(splitResult);
+
+
+console.log("split() method");
+var greet = "Good Morning my dear friend";
+var splitResult = greet.split(" ");
+console.log(splitResult);
+console.log("Total words: ", splitResult.length);
+
+var myFriendList = "Billgates, Stew Job, Elon Musk, Ratan Tata, Sundar Pichai, Satya Nadella, Narayan Murti, Nandan Nilekani, Larry Page, Surgey Brain, Tim Cook";
+console.log(myFriendList.length);
