@@ -12,5 +12,14 @@ console.log(`Multiplication is  ${result}`);
  result = num1 ** num2;
  console.log(`Exponential is  ${result}`);
 
- console.log(10/3);
- console.log(11%3);
+ result = num1 ** num2;
+ console.log(`Exponential is  ${result}`);
+
+ result = num1 / 3;
+ console.log(` Division is ${result} `);
+
+ result = num1 % 3; // Modulus
+ console.log(` Reminder is ${result} `);
+ var num = 10; // Compound addition +=
+ num+=20; // num = num + 20
+ console.log(`Compound addition += ${num}`);
