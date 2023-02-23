@@ -50,3 +50,12 @@ console.log(`Multiplication is  ${result}`);
  console.log(`Word "JavaScript" has ${result} length` );
  // var result = wordLength("Google");
  console.log(`Word "Google" has ${wordLength("Google Chrome")} length` );
+
+
+
+ function maleMarriageEligibility(gender, age, boyName){
+    var result = (gender=="Male" && age>=21) ? `Hey ${boyName} you are eligible for marriage` : " No Try next time" ;
+    return result;
+ }
+  var result = maleMarriageEligibility("Male", 25, "Billgates");
+  console.log(result);
