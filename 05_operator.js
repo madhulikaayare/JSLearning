@@ -31,3 +31,22 @@ console.log(`Multiplication is  ${result}`);
  var age = 20;
  var res = age>=21 ? "allow" :"no allow";
  console.log(res);
+
+ var myNumber = 7;
+ var result =  myNumber%2==0 ? "even" : "odd";
+ console.log(result);
+
+ var num1 = 10;
+ var num2 = 20;
+ var result = num1>num2 ? "yes" : "No" ;
+ console.log(result);
+
+ function wordLength(word){
+    var wordLength = word.length;
+    var result = wordLength%2==0 ? "EVEN" : "ODD";
+    return result;
+ }
+ var result = wordLength("JavaScript");
+ console.log(`Word "JavaScript" has ${result} length` );
+ // var result = wordLength("Google");
+ console.log(`Word "Google" has ${wordLength("Google Chrome")} length` );
