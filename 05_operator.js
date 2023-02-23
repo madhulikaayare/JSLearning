@@ -23,3 +23,11 @@ console.log(`Multiplication is  ${result}`);
  var num = 10; // Compound addition +=
  num+=20; // num = num + 20
  console.log(`Compound addition += ${num}`);
+
+ var marks = 70;
+ var result = marks>=60 ?"allow" : "dont allow";
+ console.log(result);
+
+ var age = 20;
+ var res = age>=21 ? "allow" :"no allow";
+ console.log(res);
