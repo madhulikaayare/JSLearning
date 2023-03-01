@@ -19,8 +19,7 @@ for (let index = 5; index <= 50; index=index+5) {
     console.log(index);
     
 }
-console.log("********");
-for (let index = 1; index<=10;) {
-    console.log(index);
+// console.log("********");
+// for (let index = 1; index<=10;) {
+//     console.log(index);
     
-}
