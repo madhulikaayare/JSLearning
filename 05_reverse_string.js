@@ -21,3 +21,10 @@ var reverseStr = function(str){ // str = "Do it anyhow"
 }
 var result = reverseStr("Do it anyhow"); 
 console.log(`Reverse last word : ${result}`);
+
+// "I am Angular  champ"
+var str = "I am Angular  champ";
+for (let index = 1; index < array.length; index++) {
+    
+    
+}
