@@ -71,3 +71,52 @@ console.log("==== splice(startIndex, deleteCount) === ");
 const splicedArrayWith2 = arrayOfNumbers.splice(1, 2);
 console.log(`Removed elements using deleteCount is: ${splicedArrayWith2}` );
 console.log(arrayOfNumbers);
+
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
+arrayOfNumbers.splice(3,1);
+console.log(`After removing 15: ${arrayOfNumbers}`);
+
+console.log("=====splice() to insert one elements without replacing existing element ====================");
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
+arrayOfNumbers.splice( 2, 0, 22);
+console.log(arrayOfNumbers);
+
+console.log("=====splice() to insert one elements without replacing existing element ====================");
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
+// 5, 35, 55
+arrayOfNumbers.splice( 4, 0, 5, 35, 55);
+console.log(arrayOfNumbers);
+
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
+arrayOfNumbers.splice(3,1);
+console.log(`After removing 15: ${arrayOfNumbers}`);
+
+console.log("=====splice() to insert one elements without replacing existing element ====================");
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
+arrayOfNumbers.splice( 2, 0, 22);
+console.log(arrayOfNumbers);
+
+console.log("=====splice() to insert one elements without replacing existing element ====================");
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
+// 5, 35, 55
+arrayOfNumbers.splice( 4, 0, 5, 35, 55);
+console.log(arrayOfNumbers);
+
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
+arrayOfNumbers.splice(3,1);
+console.log(`After removing 15: ${arrayOfNumbers}`);
+
+console.log("=====splice() to insert one elements without replacing existing element ====================");
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
+arrayOfNumbers.splice( 2, 0, 22);
+console.log(arrayOfNumbers);
+
+console.log("=====splice() to insert one elements without replacing existing element ====================");
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
+arrayOfNumbers.splice( 4, 0, 5, 35, 55);
+console.log(arrayOfNumbers);
+
+console.log("=====splice() to replace one elements ====================");
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
+arrayOfNumbers.splice(2, 2 ,50,60);
+console.log(arrayOfNumbers);
