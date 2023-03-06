@@ -58,3 +58,16 @@ console.log("==== splice(startIndex, deleteCount) === ");
 const splicedArrayWithDeleteCount = arrayOfNumbers.splice(2, 2);
 console.log(`Removed elements using deleteCount is: ${splicedArrayWithDeleteCount}` );
 console.log(arrayOfNumbers);
+
+
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
+console.log("==== splice(startIndex, deleteCount) === ");
+const splicedArrayWithDeleteCounts = arrayOfNumbers.splice(3, 1);
+console.log(`Removed elements using deleteCount is: ${splicedArrayWithDeleteCounts}` );
+console.log(arrayOfNumbers);
+
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45];
+console.log("==== splice(startIndex, deleteCount) === ");
+const splicedArrayWith2 = arrayOfNumbers.splice(1, 2);
+console.log(`Removed elements using deleteCount is: ${splicedArrayWith2}` );
+console.log(arrayOfNumbers);
