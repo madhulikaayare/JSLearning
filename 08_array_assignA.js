@@ -34,3 +34,10 @@ console.log(arrayFruits);
 var arrayFruits = ["Apple","Mango","Water Melon"];
 console.log("part 8");
 console.log(arrayFruits);
+
+console.log("===== Traversing  ====================");
+var arrayOfNumbers = [ 10, 20, 25, 15, 40, 45, 60, 40, 30, 22, 26 ];
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    console.log(element);
+}
