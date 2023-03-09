@@ -36,3 +36,10 @@ let teacher = {
 teacher.Name = "madhu";
 console.log(teacher);
 // first name = "mohit"
+
+
+student.marks = {
+    math: 80,
+    physics: 60,
+    drawing: 70
+}
