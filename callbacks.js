@@ -10,3 +10,9 @@ function copyAssignment(){
     console.log("Ohh finally coped all assignment");
 }
 doAssignment(copyAssignment);
+function greet(){
+    console.log("Good Morning.....");
+}
+// 1 sec = 1000 milli seconds
+// 3 sec = 3000 ms
+setTimeout(greet, 4000);
