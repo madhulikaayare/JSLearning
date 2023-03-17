@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web Session Storage</title>
+</head>
+<body>
+    <h2> Local Storage </h2>
+    <script>
+       var aaa = "Global variable";
+        window.sessionStorage.setItem("fullName", "Madhulika Ayare");
+        window.sessionStorage.setItem("city", "Pune");
+        window.sessionStorage.setItem("Pincode", "411038");
+        window.sessionStorage.setItem("District", "Pune");
+        const city = window.sessionStorage.removeItem("city")
+        console.log(city);
+    </script>
+</body>
+</html>
