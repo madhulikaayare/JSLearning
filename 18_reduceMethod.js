@@ -25,3 +25,9 @@ const sum = arrayNum.filter( (element)=> {
     return runningTotal + value;
 } );
 console.log(sum);
+
+// Find the numbers which are multiple of 3 from the given array and sum it
+console.log(" Find the numbers which are multiple of 3 from the given array and sum it");
+const sumMultipleOf3 = arrayNum.filter( element => element%3==0)
+.reduce( (runningTotal, value) => runningTotal + value);
+console.log(sum);
