@@ -1,4 +1,4 @@
-const array = [20,11,40,25,37,49,9,60,2,19];
+const array = [20,11,40,25,37,49,9,90,60,2,19];
 console.log("====== greater than 50 =======");
 const arrayElement = array.filter( (currentValue) => {
     return currentValue >= 50;
